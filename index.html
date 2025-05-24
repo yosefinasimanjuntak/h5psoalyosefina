@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Latihan Soal H5P Saya</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            text-align: center;
+            background-color: #f4f4f4; /* Sedikit sentuhan warna latar */
+        }
+        .h5p-container {
+            max-width: 1090px; /* Lebar maksimum disesuaikan dengan iframe */
+            margin: 20px auto; /* Margin atas/bawah 20px, auto untuk tengah */
+            border: 1px solid #ddd;
+            padding: 15px;
+            background-color: #fff;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Efek bayangan ringan */
+            border-radius: 8px; /* Sudut membulat */
+            overflow: hidden; /* Penting untuk menangani responsive iframe */
+        }
+        .h5p-container iframe {
+            width: 100%; /* Iframe akan mengisi lebar container */
+            height: 377px; /* Tinggi disesuaikan dengan iframe pertama */
+            display: block; /* Menghilangkan spasi ekstra di bawah iframe */
+        }
+        .h5p-container.quiz-container iframe {
+            height: 738px; /* Tinggi disesuaikan dengan iframe kedua (quiz) */
+        }
+        h1 {
+            color: #333;
+        }
+        p {
+            color: #666;
+            line-height: 1.6;
+        }
+    </style>
+</head>
+<body>
+    <h1>Latihan Soal Interaktif Saya</h1>
+    <p>Mari kita coba latihan soal interaktif di bawah ini yang dibuat dengan H5P:</p>
+
+    <div class="h5p-container">
+        <iframe src="https://h5p.org/h5p/embed/1531670" frameborder="0" allowfullscreen="allowfullscreen" allow="geolocation *; microphone *; camera *; midi *; encrypted-media *" title="Latihan Soal 1"></iframe>
+        <script src="https://h5p.org/sites/all/modules/h5p/library/js/h5p-resizer.js" charset="UTF-8"></script>
+    </div>
+
+    <p>Dan berikut adalah kuis interaktif lainnya:</p>
+
+    <div class="h5p-container quiz-container">
+        <iframe src="https://h5p.org/h5p/embed/615" frameborder="0" allowfullscreen="allowfullscreen" allow="geolocation *; microphone *; camera *; midi *; encrypted-media *" title="Quiz (Question Set)"></iframe>
+        <script src="https://h5p.org/sites/all/modules/h5p/library/js/h5p-resizer.js" charset="UTF-8"></script>
+    </div>
+
+    <p>Semoga bermanfaat dan selamat belajar!</p>
+
+</body>
+</html>
